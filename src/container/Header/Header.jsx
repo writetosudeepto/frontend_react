@@ -1,8 +1,8 @@
 import React from "react";
-import "./Header.scss";
 import { motion } from "framer-motion";
+
+import { AppWrap } from "../../wrapper";
 import { images } from "../../constants";
-import { Appwrap, AppWrap } from "../../wrapper";
 import "./Header.scss";
 
 const scaleVariants = {
@@ -28,13 +28,13 @@ const Header = () => (
           <span>👋</span>
           <div style={{ marginLeft: 20 }}>
             <p className="p-text">Hello, I am</p>
-            <h1 className="head-text">Micael</h1>
+            <h1 className="head-text">Sudipta Das</h1>
           </div>
         </div>
 
         <div className="tag-cmp app__flex">
-          <p className="p-text">Web Developer</p>
-          <p className="p-text">Freelancer</p>
+          <p className="p-text">Data Science Learner</p>
+          <p className="p-text">Full Stack Developer</p>
         </div>
       </div>
     </motion.div>
